@@ -5,17 +5,27 @@
     /* outline: 1px dashed black; */
 }
 
+body {
+    background-color: #15202b;
+    color: #ffffff;
+}
+
 .profile-pic {
     width: 60%;
 }
 
 .icons-container .icons{
     font-size: 4.5rem;
-    color: black;
+    color: #ffffff;
 }
 
 #profile-text h1{
     font-size: 5rem;
+}
+
+.project-card {
+    background-color: #15202b;
+    color: #ffffff;
 }
 
 #capstone-front-end{
@@ -28,7 +38,7 @@
 }
 
 #contact-me a{
-    color: black;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -37,6 +47,10 @@
     #name-header h1{
         font-size: xx-large;
         text-align: center;
+    }
+
+    .profile-pic {
+        width: 40%;
     }
 
     #contact-me a{
