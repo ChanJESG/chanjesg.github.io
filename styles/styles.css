@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family:"Poppins", sans-serif;
-    /* outline: 1px dashed black; */
+    /* outline: 1px dashed white; */
 }
 
 body {
@@ -11,16 +11,32 @@ body {
 }
 
 .profile-pic {
-    width: 60%;
+    width: 40%;
 }
 
 .icons-container .icons{
-    font-size: 4.5rem;
+    font-size: 3rem;
     color: #ffffff;
 }
 
+#profile-container {
+    height: 25rem;
+}
+
 #profile-text h1{
-    font-size: 5rem;
+    font-size: 2.2rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+#profile-skills li {
+    font-size: 0.8rem;
+}
+
+#profile-skills h4 {
+    font-size: 0.9rem;
 }
 
 .project-card {
